@@ -1,0 +1,118 @@
+[
+    {
+        "id": "1",
+        "price": "Free",
+        "type": "Base",
+        "value": "1 month",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "features": [
+            {
+                "name": "Access all videos",
+                "tick": true
+            },
+            {
+                "name": "Get Certificate",
+                "tick": true
+            },
+            {
+                "name": "Chat Support",
+                "tick": true
+            },
+            {
+                "name": "Update Notification",
+                "tick": true
+            },
+            {
+                "name": "Download material",
+                "tick": true
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "price": "$50",
+        "type": "Base",
+        "value": "1 month",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "features": [
+            {
+                "name": "Access all videos",
+                "tick": true
+            },
+            {
+                "name": "Get Certificate",
+                "tick": true
+            },
+            {
+                "name": "Chat Support",
+                "tick": true
+            },
+            {
+                "name": "Update Notification",
+                "tick": true
+            },
+            {
+                "name": "Download material",
+                "tick": true
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "price": "$100",
+        "type": "Pro",
+        "value": "6 month",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "features": [
+            {
+                "name": "Access all videos",
+                "tick": true
+            },
+            {
+                "name": "Get Certificate",
+                "tick": true
+            },
+            {
+                "name": "Chat Support",
+                "tick": true
+            },
+            {
+                "name": "Update Notification",
+                "tick": true
+            },
+            {
+                "name": "Download material",
+                "tick": true
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "price": "$200",
+        "type": "Enterprise",
+        "value": "12 month",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "features": [
+            {
+                "name": "Access all videos",
+                "tick": true
+            },
+            {
+                "name": "Get Certificate",
+                "tick": true
+            },
+            {
+                "name": "Chat Support",
+                "tick": true
+            },
+            {
+                "name": "Update Notification",
+                "tick": true
+            },
+            {
+                "name": "Download material",
+                "tick": true
+            }
+        ]
+    }
+]

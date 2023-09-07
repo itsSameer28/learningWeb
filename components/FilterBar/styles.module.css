@@ -1,0 +1,132 @@
+/* filterBarContainer */
+.filterBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #d8d1e2;
+  min-width: 244px;
+}
+
+/* filterStyle */
+.filterStyle {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* resetButtonStyle */
+.resetButtonStyle {
+  background-color: transparent;
+  border: none;
+  color: #5bb6d2;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* filterContentContainer */
+.filterContentContainer {
+  margin-top: 20px;
+}
+
+/* categoryStyle */
+.categoryStyle {
+  color: var(--grayscale-900, #151318);
+  /* Paragraph - 12/Bold - 12 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  margin-top: 16px;
+}
+
+/* categoryContainer */
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* categoryFields */
+.categoryFields {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+
+/* priceStyle */
+.priceStyle {
+  color: var(--grayscale-900, #151318);
+  /* Paragraph - 12/Bold - 12 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  margin-top: 16px;
+}
+
+/* priceBarStyle */
+.priceBarStyle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+/* discountStyle */
+.discountStyle {
+  color: var(--grayscale-900, #151318);
+  /* Paragraph - 12/Bold - 12 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  margin-top: 16px;
+}
+
+/* discountContainer */
+.discountContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* discountFields */
+.discountFields {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  min-width: 180px;
+}
+
+/* toggleButtonContainer */
+.toggleButtonContainer {
+  display: none;
+  z-index: 996;
+  color: #16629C;
+}
+.filter{
+  width: 24px;
+  height: 28px;
+}
+@media (max-width: 1024px) {
+  .toggleButtonContainer {
+    display: block;
+    position: absolute;
+    left: 11px;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .toggleButtonContainer {
+    display: block;
+    position: absolute;
+    left: 11px;
+    width: 95%;
+  }
+}

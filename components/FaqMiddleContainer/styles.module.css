@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.faqList {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading {
+  color: Black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.FaqListMain {
+  margin: 40px 0 40px 0;
+}
+.faqListHeadingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.secondHeading {
+  color: var(--grayscale-300, #9891a3);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+.animationHidden {
+  visibility: hidden;
+  height: 0;
+}
+.animation {
+  max-height: 120px;
+  visibility: visible;
+  transform: translateY(0.5em);
+  transition: all 1s ease-out;
+}
+.icon {
+  margin-left: 5px;
+}
+
+.subHeading {
+  /* margin-left: 7px; */
+  color: #808080;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+}

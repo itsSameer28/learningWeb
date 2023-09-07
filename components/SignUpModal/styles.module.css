@@ -1,0 +1,338 @@
+/* mainContainer */
+.mainContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 24px;
+  padding: 25px 40px;
+}
+@media (max-width: 767px) {
+  .mainContainer {
+    width: 335px;
+    padding: 30px 29px;
+  }
+}
+@media (max-width: 280px) {
+  .mainContainer {
+    width: 260px !important;
+    padding: 28px 22px !important;
+  }
+  .noAccountText {
+    font-size: 9px !important;
+  }
+  .signupText {
+    font-size: 9px !important;
+  }
+  .inputFieldsContainer {
+    gap: 2px !important;
+  }
+  .innerContainer {
+    gap: 7px !important;
+  }
+  .buttonsContainer {
+    gap: 7px !important;
+  }
+  .emailContainer {
+    gap: 4px !important;
+  }
+  .passwordContainer {
+    gap: 4px !important;
+  }
+  .nameContainer {
+    gap: 4px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 24px;
+    padding: 50px 53px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 423px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 24px;
+    padding: 25px 40px;
+  }
+}
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainContainer {
+    width: 600px;
+  }
+  .name {
+    width: 50%;
+  }
+}
+/* innerContainer */
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* headingContainer */
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* mainHeading */
+.mainHeading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 22px;
+  font-weight: 1000;
+  color: #322f37;
+}
+@media (max-width: 767px) {
+  .mainHeading {
+    font-size: 14px;
+  }
+  .rememberMeText {
+    font-size: 12px !important;
+  }
+  .forgotPasswordText {
+    font-size: 12px !important;
+  }
+  .noAccountText {
+    font-size: 12px !important;
+  }
+  .signupText {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 290px) {
+  .mainHeading {
+    font-size: 12px;
+  }
+  .rememberMeText {
+    font-size: 10px !important;
+  }
+  .forgotPasswordText {
+    font-size: 10px !important;
+  }
+  .noAccountText {
+    font-size: 10px !important;
+  }
+  .signupText {
+    font-size: 10px !important;
+  }
+}
+/* subHeading */
+.subHeading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  color: #8a8394;
+}
+
+/* inputFieldsContainer */
+.inputFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .innerContainer {
+    gap: 20px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .innerContainer {
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .inputFieldsContainer {
+    gap: 10px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .inputFieldsContainer {
+    gap: 1px;
+  }
+}
+/* emailContainer */
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* emailLabel */
+.textLabel {
+  color: var(--grayscale-700, #4f4b56);
+
+  /* Paragraph - 16/Bold - 16 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 28.8px */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .textLabel {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .textLabel {
+    font-size: 10px;
+  }
+}
+/* inputField */
+.inputField {
+  width: 100%;
+}
+
+/* passwordContainer */
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* forgotPasswordContainer */
+.forgotPasswordContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* rememberMeContainer */
+.rememberMeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* rememberMeText */
+.rememberMeText {
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans";
+}
+
+/* forgotPasswordText */
+.forgotPasswordText {
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans";
+  color: #16629c;
+}
+
+/* buttonsContainer */
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* signInButton */
+.signInButton {
+  width: 100%;
+  background-color: #253c6e;
+  color: #ffffff;
+  border-radius: 70px;
+  padding: 10px 15px;
+  text-transform: none;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.signInButton:hover {
+  background-color: #253c6e;
+}
+
+/* signInWithGoogleButton */
+.signInWithGoogleButton {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 70px;
+  border: 1px solid #d8d1e2;
+  padding: 10px 15px;
+}
+
+.signInWithGoogleButton:hover {
+  background-color: #ffffff;
+}
+
+/* googleLogo */
+.googleLogo {
+  width: 20px;
+}
+
+/* signInWithGoogleText */
+.signInWithGoogleText {
+  font-family: "Plus Jakarta Sans";
+  color: #4f4b56;
+  text-transform: none;
+  color: var(--grayscale-700, #4f4b56);
+  /* Paragraph - 14/Semibold - 14 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* noAccountContainer */
+.noAccountContainer {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* noAccountText */
+.noAccountText {
+  color: var(--grayscale-500, #7b7584);
+  text-align: center;
+  /* Paragraph - 14/Bold - 14 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%; /* 28px */
+  letter-spacing: 0.14px;
+}
+
+/* signupText */
+.signupText {
+  color: var(--s-1, #253c6e);
+  /* Paragraph - 14/Bold - 14 px */
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.14px;
+}

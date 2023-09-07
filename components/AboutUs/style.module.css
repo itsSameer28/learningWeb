@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&family=Roboto&display=swap");
+
+/* Top Banner Box */
+.topBannerBox {
+  padding-top: 140px;
+  padding-bottom: 70px;
+  background-color: #253c6e;
+  width: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 830px 350px;
+  background-position: right 40% bottom 40%;
+}
+
+@media (max-width: 653px) {
+  .topBannerBox {
+    padding-top: 140px;
+    padding-bottom: 70px;
+    background-color: #253c6e;
+    width: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 830px 350px;
+    background-position: right 40% bottom 40%;
+  }
+}
+
+.aboutUsBox {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Banner About Us */
+.BannerAboutus {
+  color: var(--grayscale-0, #fff);
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+@media (max-width: 280px) {
+  .BannerAboutus {
+    font-size: 18px !important;
+  }
+  .heading {
+    font-size: 18px !important;
+  }
+  .bigcompany {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 767px) {
+  .BannerAboutus {
+    font-size: 22px !important;
+  }
+  .bigcompany {
+    font-size: 22px !important;
+  }
+  .ourTeamTopography {
+    font-size: 22px !important;
+  }
+  .heading {
+    font-size: 22px !important;
+  }
+  .bannerDescription {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .BannerAboutus {
+    font-size: 32px;
+  }
+  .bigcompany {
+    font-size: 32px;
+  }
+  .ourTeamTopography {
+    font-size: 32px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .BannerAboutus {
+    font-size: 36px;
+  }
+  .bigcompany {
+    font-size: 36px;
+  }
+  .ourTeamTopography {
+    font-size: 36px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+}
+.boxdis {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* Banner Description */
+
+@media (max-width: 767px) {
+  .boxdis {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+
+.bannerDescription {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+/* Heading Box */
+.headingBox {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 48px;
+}
+
+/* Heading */
+.heading {
+  color: var(--grayscale-767, #322f37);
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    color: var(--grayscale-767, #322f37);
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+}
+
+/* Heading Description Box */
+.headingDescriptionBox {
+  width: 55%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .headingDescriptionBox {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Heading Description */
+.headingDescription {
+  color: var(--grayscale-400, #8a8394);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%;
+  text-align: center;
+  letter-spacing: 0.14px;
+  margin-top: 16px;
+}
+
+/* Grid Container */
+.gridContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 820px) {
+  .gridContainer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+/* Grid 1 Item */
+.grid1Item {
+  margin-bottom: 80px;
+}
+
+/* Grid 1 Item Box */
+.grid1ItemBox {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Grid 1 Item Box Image */
+.grid1ItemBoxImg {
+  margin: 24px;
+}
+
+/* Vision Parent Box */
+.visionParentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Vision Title */
+.visionTitle {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 150%;
+  color: var(--grayscale-767, #322f37);
+  margin-top: 22px;
+}
+
+/* Vision Description */
+.visionDescription {
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+  letter-spacing: 0.12px;
+  color: var(--grayscale-400, #8a8394);
+}
+
+/* Image Box */
+.imgBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.ourTeamTopography {
+  text-align: center;
+  font-size: 42px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 140%;
+  color: var(--grayscale-767, #322f37);
+}
+
+/* Description Name */
+.desname {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .desname {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+/* Bottom Grid Container */
+.bottomGridContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .bottomGridContainer {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+.topGridContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 300px) and (max-width: 820px) {
+  .topGridContainer {
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+}
+
+/* Vast Description */
+.vastDescription {
+  padding-top: 60px;
+  padding-left: 5px;
+  padding-bottom: 24px;
+  text-align: start;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 200%;
+  letter-spacing: 0.14px;
+  color: var(--grayscale-400, #8a8394);
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  .vastDescription {
+    width: 173%;
+  }
+}
+@media (min-width: 801px) and (max-width: 911px) {
+  .vastDescription {
+    width: 168%;
+  }
+}
+/* Gustavo George */
+.GustavoGeorge {
+  text-align: start;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 150%;
+  color: var(--grayscale-767, #322f37);
+}
+
+@media screen and (max-width: 767px) {
+  .GustavoGeorge {
+    text-align: start;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    color: var(--grayscale-767, #322f37);
+  }
+}
+
+/* Founder */
+.founder {
+  padding-bottom: 5px;
+  text-align: start;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 180%;
+  letter-spacing: 0.12px;
+  color: var(--grayscale-400, #8a8394);
+}
+
+/* Right Image */
+.rightImg {
+  display: block;
+  margin-left: auto;
+  width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+  .rightImg {
+    display: block;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+@media (min-width: 820px) and (max-width: 911px) {
+  .rightImg {
+    /* margin-left: 30%; */
+    width: 128%;
+  }
+}
+@media (min-width: 768px) and (max-width: 820px) {
+  .rightImg {
+    margin-left: 45%;
+    width: 135%;
+  }
+  .leftImg {
+    margin-left: 40%;
+  }
+}
+
+/* Big Company */
+.bigcompany {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+  color: var(--grayscale-900, #151318);
+}
+
+/* Contain */
+.contain {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .contain {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .contain {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .contain {
+    width: 130%;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .contain {
+    margin: 0 auto;
+    width: 33% !important;
+    height: 10% !important;
+    object-fit: contain;
+    overflow: hidden;
+  }
+}
+
+/* Margin */
+.margin {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+  .contain {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .leftImg {
+    width: 88%;
+    height: 93%;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  .margin {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .leftImg {
+    /* margin-left: 40%; */
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .leftImg {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .trustedText {
+    width: 99%;
+  }
+}
+.containerWrap {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+/* blueStarContainer */
+.blueStarContainer {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .blueStarContainer {
+    top: 120px;
+    right: -40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .blueStarContainer {
+    top: 130px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blueStarContainer {
+    top: 110px;
+    right: -20px;
+  }
+}
+.bluestar {
+  width: 32px;
+  height: 32px;
+}
+@media (max-width: 767px) {
+  .bluestar {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .bluestar {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .bluestar {
+    width: 26px;
+    height: 26px;
+  }
+}
+/* whiteStarContainer */
+.whiteStarContainer {
+  position: absolute;
+  top: 17rem;
+  left: -5rem;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .whiteStarContainer {
+    top: 18rem;
+    left: -4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .whiteStarContainer {
+    top: 18.5rem;
+    left: -2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .whiteStarContainer {
+    top: unset;
+    left: -1rem;
+    bottom: -21rem;
+  }
+}
+@media (max-width: 280px) {
+  .whiteStarContainer {
+    top: unset;
+    left: -1rem !important;
+    bottom: -21rem !important;
+  }
+}
+.whitestar {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 767px) {
+  .whitestar {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .whitestar {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .whitestar {
+    width: 30px;
+    height: 30px;
+  }
+}

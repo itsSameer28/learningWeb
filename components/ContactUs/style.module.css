@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Roboto&display=swap");
+
+.topBannerBox {
+  padding-top: 140px;
+  padding-bottom: 90px;
+  background-color: #253c6e;
+  width: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 830px 350px;
+  background-position: right 40% bottom 40%;
+}
+
+.contactUsBox {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.BannerAboutus {
+  font-family: Plus Jakarta Sans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--grayscale-0, #fff);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.boxdis {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 12px 14px;
+  margin: 0 auto;
+  width: 135px;
+}
+
+.bannerDescription {
+  color: var(--grayscale-0, #fff);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.Heading {
+  color: var(--grayscale-900, #151318);
+  font-family: Plus Jakarta Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.headingDescription {
+  color: var(--grayscale-500, #7b7584);
+  font-family: Plus Jakarta Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.16px;
+  width: 70%;
+  padding-left: 3px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.iconwidth {
+  width: 10%;
+  padding: 5px;
+}
+
+.textwidth {
+  width: 90%;
+  padding: 4px;
+}
+
+.number {
+  color: var(--grayscale-900, #151318);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+}
+
+.container2firstname {
+  color: var(--grayscale-700, #4f4b56);
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  padding-left: 5px;
+}
+
+.inputContainer {
+  border-radius: 10px;
+  border: #ded1e2 solid 0.5px;
+  padding: 10px;
+  width: 100%;
+}
+.inputContainer ::placeholder {
+  color: #a79fb3;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1%;
+}
+
+.textContainer {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  border-radius: 10px;
+  border: #a79fb3 solid 0.5px;
+  padding: 2.5%;
+  width: 95%;
+}
+
+.container2discription {
+  color: black;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+}
+
+.contains {
+  margin-bottom: 24px;
+}
+
+.button {
+  background-color: #253c6e;
+  text-transform: none;
+  width: 179px;
+  height: 64px;
+  border-radius: 32px;
+  padding: 16px, 32px, 16px, 32px;
+  display: block;
+  margin-left: auto;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #253c6e;
+}
+
+.error {
+  color: red;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.containerWrap {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+/* blueStarContainer */
+.blueStarContainer {
+  position: absolute;
+  top: 125px;
+  right: 0;
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .blueStarContainer {
+    top: 120px;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .blueStarContainer {
+    top: 130px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blueStarContainer {
+    top: 110px;
+    right: -20px;
+  }
+}
+.bluestar {
+  width: 32px;
+  height: 32px;
+}
+@media (max-width: 767px) {
+  .bluestar {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .bluestar {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .bluestar {
+    width: 26px;
+    height: 26px;
+  }
+}
+/* whiteStarContainer */
+.whiteStarContainer {
+  position: absolute;
+  top: 14.5rem;
+  left: -5rem;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .whiteStarContainer {
+    top: 18rem;
+    left: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .whiteStarContainer {
+    top: 18.5rem;
+    left: -2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .whiteStarContainer {
+    top: unset;
+    left: -1rem;
+    bottom: -20rem;
+  }
+}
+@media (max-width: 280px) {
+  .whiteStarContainer {
+    top: 20rem;
+    left: -1rem !important;
+    /* bottom: 0rem !important; */
+  }
+}
+.whitestar {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 767px) {
+  .whitestar {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .whitestar {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .whitestar {
+    width: 30px;
+    height: 30px;
+  }
+}
+/* highLightContainer */
+.highLightContainer {
+  position: absolute;
+  top: 100px;
+  left: 21rem;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .highLightContainer {
+    top: 113px;
+    left: 138px;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .highLightContainer {
+    top: 100px;
+    left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .highLightContainer {
+    top: 125px;
+    left: -17px;
+  }
+}
+@media (max-width: 290px) {
+  .highLightContainer {
+    top: 113px;
+    left: -26px;
+  }
+}
+.highlight {
+  width: 73.43px;
+  height: 67.03px;
+}
+@media (max-width: 767px) {
+  .highlight {
+    width: 60.23px;
+    height: 40.03px;
+  }
+}
+@media (max-width: 768px) and (max-width: 992px) {
+  .highlight {
+    width: 60.23px;
+    height: 40.03px;
+  }
+}
+@media (max-width: 280px) {
+  .BannerAboutus {
+    font-size: 18px !important;
+  }
+  .Heading {
+    font-size: 18px !important;
+  }
+  .button {
+    width: 152px !important;
+    height: 43px !important;
+  }
+}
+@media (max-width: 767px) {
+  .BannerAboutus {
+    font-size: 22px !important;
+  }
+  .Heading {
+    font-size: 22px !important;
+  }
+  .button {
+    width: 152px !important;
+    height: 40px !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .BannerAboutus {
+    font-size: 32px;
+  }
+  .Heading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .BannerAboutus {
+    font-size: 36px;
+  }
+  .Heading {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&family=Red+Hat+Display&display=swap");
+
+/* Styles for the main container */
+.mainConatinerStyle {
+  background-color: #e1e9fd;
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 830px 350px;
+  background-position: right 50% bottom 45%;
+}
+
+/* Responsive styles for background image size and position */
+@media (max-width: 768px) {
+  .mainConatinerStyle {
+    background-size: 600px 250px;
+    background-position: center center;
+  }
+}
+
+/* Styles for the inner container */
+.innerContainerStyle {
+  display: flex;
+  padding: 60px 0px 60px 90px;
+  justify-content: flex-end;
+}
+
+/* Responsive styles for the inner container */
+@media (max-width: 768px) {
+  .innerContainerStyle {
+    padding: 30px;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* Styles for the left container */
+.leftConatainerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 42%;
+}
+
+/* Responsive styles for the left container */
+@media (max-width: 768px) {
+  .leftConatainerStyle {
+    width: 100%;
+  }
+}
+
+/* Styles for the left container heading */
+.leftContainerHeading {
+  color: #16629c;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans";
+}
+@media (max-width: 280px) {
+  .leftContainerHeading {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .leftContainerHeading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .leftContainerHeading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .leftContainerHeading {
+    font-size: 36px;
+  }
+}
+
+/* Styles for the left container description */
+.leftConatinerDescriptionStyle {
+  width: 80%;
+  color: #8a8394;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+}
+
+/* Styles for the button group container */
+.buttonGroupContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+/* Styles for the previous button */
+.previousButtonStyle {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  color: #253c6e;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the next button */
+.nextButtonStyle {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: #253c6e;
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the slider container */
+.sliderContainer {
+  width: 50%;
+}
+
+/* Responsive styles for the slider container */
+@media (max-width: 768px) {
+  .sliderContainer {
+    width: 100%;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}

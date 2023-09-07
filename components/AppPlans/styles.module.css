@@ -1,0 +1,83 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 100px;
+  flex-wrap: wrap;
+  width: 80%;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
+
+.planCard {
+  width: 230px;
+  margin: 15px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.planCardPriceSection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.planCardPrice {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2C2C2C;
+}
+
+.priceSeparator {
+  color: #808080;
+}
+
+.planValue {
+  color: #808080;
+}
+
+.planType {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2C2C2C;
+}
+
+.planDescription {
+  font-size: 12px;
+  color: #808080;
+}
+
+.listStyle {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.listItemContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.listItemValue {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttonStyle {
+  color: #16629C;
+  width: 90%;
+  background-color: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+.buttonStyle:hover {
+  background-color: #16629C;
+}

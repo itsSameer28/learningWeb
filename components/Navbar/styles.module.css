@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&family=Red+Hat+Display&display=swap");
+
+/* styles.module.css */
+.mainContainerStyle {
+  position: fixed;
+  width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: white;
+  z-index: 999;
+}
+
+.logoContainer {
+  padding: 15px;
+}
+
+.logoStyle {
+  width: 150px;
+  height: 45px;
+  margin-left: 40px;
+}
+@media (max-width: 280px) {
+  .logoStyle {
+    margin-left: 15px;
+  }
+}
+
+.signupButtonStyle {
+  /* signup button style */
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  border-left: 1px solid #e1e9fd;
+  padding-left: 20px;
+  color: #16629c;
+  text-transform: none;
+  font-size: 14px;
+
+  @media (max-width: 1088px) {
+    border-left: none;
+  }
+}
+
+.loginButtonStyle {
+  /* login button style */
+  background-color: #253c6e;
+  border: 0;
+  color: white;
+  width: 120px;
+  height: 42px;
+  border-radius: 50px;
+  font-size: 14px;
+  text-transform: none;
+}
+.loginButtonStyle:hover {
+  background-color: #253c6e;
+}
+
+.toggleButton {
+  display: none;
+}
+
+@media (max-width: 1088px) {
+  .toggleButton {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .toggleButton {
+    display: block;
+    position: absolute;
+    top: 34px;
+    right: 45px;
+    /* overflow-y: hidden; */
+  }
+  /* .body {
+    position: fixed;
+  } */
+}
+@media (max-width: 280px) {
+  .toggleButton {
+    top: 35px !important;
+    right: 38px !important;
+  }
+}

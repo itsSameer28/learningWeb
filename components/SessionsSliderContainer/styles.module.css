@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&family=Red+Hat+Display&display=swap");
+
+/* Main container */
+.mainContainer {
+  padding: 12px;
+  border: 0.75px solid #ebdbfd;
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  /* Responsive layout for smaller screens */
+  .mainContainer {
+    flex-direction: column;
+  }
+}
+
+/* Image container */
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 767px) {
+  /* Responsive layout for larger screens */
+  .imageContainer {
+    width: 66%;
+  }
+}
+
+/* Session image */
+.sessionImage {
+  width: 100%;
+  height: 299px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Session details container */
+.sessionDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 14px;
+}
+
+/*top container*/
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Session category */
+.sessionCategory {
+  margin: 0;
+  color: #16629c;
+  font-size: 18px;
+  font-weight: 1000;
+  line-height: 23.979px; /* 109.046% */
+  font-family: "Red Hat Display";
+}
+
+/* Session title */
+.sessionTitle {
+  margin: 0;
+  color: #0a033c;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Red Hat Display";
+}
+
+/* Session rating container */
+.sessionRatingContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 60px;
+  width: 60%;
+}
+@media (max-width: 767px) {
+  .sessionRatingContainer {
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+  }
+}
+/* Rating left container */
+.ratingLeft {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Total rating */
+.totalRating {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #253c6e;
+  font-weight: 600;
+}
+
+/* Stars container */
+.starsContainer {
+  display: flex;
+  gap: 2px;
+}
+
+/* Star icon */
+.starIcon {
+  color: #253c6e;
+  height: 16px;
+  width: 16px;
+}
+
+/* Rating count */
+.ratingCount {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #253c6e;
+  font-weight: 600;
+}
+
+/* Rating right container */
+.ratingRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Students count */
+.studentsCount {
+  font-size: 12px;
+  color: #6c688a;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+/* Session description */
+.sessionDescription {
+  color: #8a8394;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  width: 90%;
+}
+
+/* Bottom container */
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .bottomContainer {
+    flex-direction: column;
+  }
+}
+
+/* Instructor container */
+.instructorContainer {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+/* Instructor display picture */
+.instructorDp {
+  height: 40px;
+  width: 40px;
+}
+
+/* Instructor name container */
+.instructorNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Instructor name */
+.instructorName {
+  color: #0a033c;
+  font-weight: 700;
+  font-family: "Red Hat Display";
+  font-size: 15px;
+}
+
+/* Enroll button */
+.enrollButton {
+  height: 34px;
+  width: 115px;
+  background-color: #253c6e;
+  border: none;
+  color: #fff;
+  border-radius: 9px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Inter";
+  text-transform: none;
+  margin-right: 72px;
+}
+@media (max-width: 280px) {
+  .enrollButton {
+    margin-right: 0px !important;
+  }
+}
+@media  (max-width: 787px) {
+  .enrollButton {
+    margin-right: 0px;
+  }
+}
+@media (min-width:768px) and (max-width: 992px) {
+  .enrollButton {
+    margin-right: 0px;
+  }
+}
+@media (min-width:993px) and (max-width: 1200px) {
+  .enrollButton {
+    margin-right: 0px;
+  }
+}
+.enrollButton:hover {
+  background-color: #253c6e;
+}

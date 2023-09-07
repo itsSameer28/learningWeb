@@ -1,0 +1,462 @@
+.mainConatinerStyle {
+  background-color: #253c6e;
+  width: 100%;
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 830px 350px;
+  background-position: right 6% bottom 45%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainConatinerStyle {
+    background-size: 600px 600px;
+    background-position: right 35% bottom -10%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .mainConatinerStyle {
+    background-size: 730px 600px;
+    background-position: right 0% bottom 2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainConatinerStyle {
+    background-size: 350px 450px;
+    background-position: right 0% bottom 0%;
+  }
+}
+
+@media (max-width: 280px) {
+  .mainConatinerStyle {
+    background-size: 250px 350px;
+    background-position: right 0% bottom 0%;
+  }
+}
+
+.innerContainerStyle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 8rem;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  /* Responsive styles for inner container */
+  @media (max-width: 768px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.leftContainerStyle {
+  display: flex;
+  width: 29rem;
+  flex-direction: column;
+  gap: 30px;
+
+  /* Responsive styles for left container */
+  @media (max-width: 1024px) {
+    width: 40rem;
+    padding-bottom: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  @media (max-width: 280px) {
+    padding-bottom: unset !important;
+  }
+}
+
+.leftContainerHeadingStyle {
+  font-size: 38px;
+  color: white;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media (max-width: 280px) {
+  .leftContainerHeadingStyle {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .leftContainerHeadingStyle {
+    font-size: 22px;
+    color: white;
+    line-height: 50px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .leftContainerHeadingStyle {
+    font-size: 32px;
+    color: white;
+    line-height: 60px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .leftContainerHeadingStyle {
+    font-size: 36px;
+    color: white;
+    line-height: 50px;
+    font-weight: 600;
+  }
+}
+
+.leftContainerDescriptionStyle {
+  color: #8a8394;
+  width: 90%;
+  font-size: 14px;
+  line-height: 24px;
+
+  @media (max-width: 1301px) {
+    width: 100%;
+  }
+
+  font-family: "Plus Jakarta Sans";
+}
+
+.leftContainerButtonGroupStyle {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .leftContainerButtonGroupStyle {
+    width: unset;
+  }
+
+  .innerContainerStyle {
+    padding-top: 6.5rem !important;
+  }
+}
+
+.curlImage {
+  margin-left: 13px;
+}
+
+@media (max-width: 280px) {
+  .curlImage {
+    margin-left: unset;
+  }
+
+  .leftContainerStyle {
+    gap: 15px;
+  }
+}
+
+.joinClassesButtonStyle {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  font-weight: 12px;
+  font-size: 11px;
+  text-transform: none;
+  font-weight: 600;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #253c6e;
+  background-color: #fff;
+
+  @media (max-width: 1301px) {
+    width: 100%;
+  }
+
+  font-family: "Plus Jakarta Sans";
+}
+
+@media (max-width: 280px) {
+  .joinClassesButtonStyle {
+    padding: 7px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .joinClassesButtonStyle {
+    padding: 10px;
+  }
+}
+
+.joinClassesButtonStyle:hover {
+  color: #253c6e;
+  background-color: #fff;
+}
+
+.joinMemberShipButtonStyle {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  font-weight: 12px;
+  font-size: 11px;
+  text-transform: none;
+  font-weight: 600;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+
+  @media (max-width: 1301px) {
+    width: 100%;
+  }
+
+  font-family: "Plus Jakarta Sans";
+}
+
+@media (max-width: 280px) {
+  .joinMemberShipButtonStyle {
+    padding: 7px !important;
+  }
+}
+
+@media (max-width: 787px) {
+  .joinMemberShipButtonStyle {
+    padding: 12px;
+  }
+}
+
+.rightConatinerStyle {
+  display: flex;
+  position: relative;
+
+  @media (max-width: 1301px) {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+.sessionContainerStyle {
+  height: 110px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 13px;
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  bottom: 11rem;
+  right: 16rem;
+
+  /* Responsive styles for pencil icon */
+
+  /* Responsive styles for session container */
+
+  @media (max-width: 767px) {
+    bottom: 4rem;
+    right: 1rem;
+  }
+}
+
+.sessionContainerInnerStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sessionHeadingStyle {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sessionTimingStyle {
+  margin: 0;
+  font-size: 12.57px;
+  color: rgba(44, 44, 44, 0.7);
+  font-family: "Plus Jakarta Sans";
+}
+
+.sessionJoinButtonStyle {
+  border: none;
+  background-color: #16629c;
+  color: #fff;
+  border-radius: 8px;
+  width: 70%;
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  text-transform: none;
+}
+
+.sessionJoinButtonStyle:hover {
+  background-color: #16629c;
+}
+
+.pencilIconStyle {
+  background-color: rgba(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  gap: 15px;
+  top: 4.1rem;
+  right: 21rem;
+  transform: rotate(67deg);
+
+  /* Responsive styles for pencil icon */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    top: 3.6rem;
+    right: 21rem;
+  }
+
+  /* Responsive styles for pencil icon */
+  @media (min-width: 768px) and (max-width: 992px) {
+    top: 3.8rem;
+    right: 20.7rem;
+  }
+
+  @media (max-width: 767px) {
+    top: unset;
+    right: unset;
+    bottom: 23rem;
+    left: 0rem;
+  }
+
+  @media (max-width: 280px) {
+    top: unset !important;
+    right: unset !important;
+    bottom: 13.8rem !important;
+    left: -1rem !important;
+  }
+}
+
+.playIconStyle {
+  background-color: rgba(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  gap: 15px;
+  top: 11rem;
+  right: 1rem;
+  transform: rotate(5deg);
+
+  /* Responsive styles for play icon */
+  @media (min-width: 768px) and (max-width: 992px) {
+    top: 10rem;
+    right: 3rem;
+  }
+
+  @media (max-width: 767px) {
+    top: 6.5rem;
+    right: 1rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .playIconStyle {
+    top: 4.5rem !important;
+    right: 0rem !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .sessionContainerStyle {
+    top: 8.2rem !important;
+    right: 9px !important;
+    width: 117%;
+    height: 37%;
+  }
+
+  .sessionHeadingStyle {
+    font-size: 11px;
+  }
+}
+
+.calenderIconStyle {
+  background-color: rgba(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  gap: 15px;
+  bottom: 2rem;
+  right: -2rem;
+  transform: rotate(12deg);
+}
+
+@media (max-width: 280px) {
+  .calenderIconStyle {
+    bottom: 8px !important;
+    right: -36px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .calenderIconStyle {
+    position: absolute;
+    gap: 15px;
+    bottom: 1rem;
+    right: -1.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .calenderIconStyle {
+    position: absolute;
+    gap: 15px;
+    bottom: 1rem;
+    right: -1.7rem;
+  }
+}
+
+.womenImage {
+  width: 100%;
+  object-fit: contain;
+  height: 590px;
+}
+
+@media (max-width: 767px) {
+  .womenImage {
+    height: 100%;
+  }
+}
+
+.iconImage {
+  height: 34.48px;
+  width: 32.03px;
+  transform: rotate(-81deg);
+
+  @media (max-width: 767px) {
+    height: 25.48px;
+    width: 25.03px;
+  }
+}
+
+.iconImage1 {
+  height: 34.48px;
+  width: 32.03px;
+  transform: rotate(121deg);
+
+  @media (max-width: 767px) {
+    height: 25.48px;
+    width: 25.03px;
+  }
+}
+
+.iconImage2 {
+  height: 34.48px;
+  width: 32.03px;
+  transform: rotate(-15deg);
+
+  @media (max-width: 767px) {
+    height: 25.48px;
+    width: 25.03px;
+  }
+}

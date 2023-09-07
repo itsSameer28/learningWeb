@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&family=Red+Hat+Display&display=swap");
+
+/* Main container styles */
+.mainContainer {
+  padding: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .mainContainer {
+    padding: 28px;
+    margin-top: 23px;
+  }
+}
+
+/* Footer container styles */
+.footerContainer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  @media (min-width: 1200px) {
+    padding: 50px;
+  }
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    padding: 30px;
+  }
+  @media (min-width: 768px) and (max-width: 912px) {
+    margin-left: 55px;
+  }
+}
+
+/* Styles for the heading container */
+.headingContainer {
+  padding: 15px 0;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .headingContainer {
+    padding: 13px 0px;
+    width: 208px;
+  }
+}
+
+/* Main heading styles */
+.mainHeading {
+  font-size: 14px;
+  font-style: "Plus Jakarta Sans";
+  color: #1c1c1c;
+}
+
+/* Styles for the left section of the footer */
+.footerLeft {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .footerLeft {
+    gap: 6px;
+  }
+}
+
+/* Styles for the top section of the left footer */
+.footerLeftTop {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Styles for the bottom section of the left footer */
+.footerLeftBottom {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 280px) {
+  .footerLeftBottom {
+    width: unset;
+  }
+}
+
+@media (max-width: 280px) {
+  .footerLeftTop {
+    width: unset;
+  }
+}
+
+/* Styles for the contact containers */
+.contactContainers {
+  display: flex;
+  gap: 15px;
+}
+
+/* Styles for the contact text */
+.contactText {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  color: #1c1c1c;
+}
+
+/* Styles for the contact logo */
+.contactLogo {
+  margin-top: 4px;
+}
+
+/* Logo styles */
+.footerLogo {
+  width: 282px;
+  height: 75px;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .footerLogo {
+    width: 79%;
+    height: 100%;
+  }
+}
+
+/* Styles for the middle section of the footer */
+.footerMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .footerMiddle {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+}
+
+/* Styles for the curl image in the middle section */
+.curlImage {
+  width: 80%;
+}
+
+/* Styles for the container of lists in the footer */
+.listContainer {
+  display: flex;
+  gap: 3.4rem;
+  font-size: 14px;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .listContainer {
+    margin-top: 2rem;
+  }
+}
+
+/* Styles for each list in the footer */
+.list {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+/* Styles for the heading of each list */
+.listHeading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  color: #1c1c1c;
+}
+
+/* Styles for each item in the lists */
+.listItem {
+  color: #7b7584;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Styles for the container of social media icons */
+.iconsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+/* Styles for social media icons */
+.socialIcon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Styles for the bottom section of the footer */
+.footerBottom {
+  border-top: 1px solid #e1e9fd;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+/* Styles for the copyright text */
+.copyrightText {
+  font-size: 12px;
+  color: #6d6775;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+}
