@@ -13,25 +13,44 @@ import styles from "./styles.module.css";
 import axios from "axios";
 import { UserSignUp } from "../Api/Api";
 import { useRouter } from "next/router";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function LoginModal({ open, handleOpen, handleClose }) {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const router = useRouter();
-  const handleLogin = () => {
+  const handleLogin = async () => {
     try {
-      axios
+      await axios
         .post(`${UserSignUp}/login`, {
           email: email,
           password: password,
         })
         .then((res) => {
           localStorage.setItem(res.data.loginUser.token, "token");
-          if (res.status === 200) {
-            router.push("/plans");
-          }
+          toast.success(res.data.message, {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         });
-    } catch (err) {
-      console.log(err);
+    } catch (error) {
+      console.log(error.response.data.message, "error");
+      toast.error(error.response.data.message, {
+        position: "bottom-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
     }
     handleClose();
   };

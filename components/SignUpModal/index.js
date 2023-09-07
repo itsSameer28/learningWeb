@@ -12,8 +12,8 @@ import CloseIcon from "@mui/icons-material/Close";
 import { UserSignUp } from "../Api/Api";
 import styles from "./styles.module.css";
 import axios from "axios";
-import { Cookie } from "@mui/icons-material";
-import { cookies } from "next/dist/client/components/headers";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function SignUpModal({ open, handleOpen, handleClose }) {
   const [firstName, setFirstName] = React.useState("");
   const [lastName, setLastName] = React.useState("");
@@ -24,9 +24,9 @@ export default function SignUpModal({ open, handleOpen, handleClose }) {
   const handleAllInput = () => {
     alert("Please Fill All Fields");
   };
-  const handleSignUp = () => {
+  const handleSignUp = async () => {
     try {
-      axios
+      await axios
         .post(`${UserSignUp}/signup`, {
           firstName: firstName,
           lastName: lastName,
@@ -35,10 +35,28 @@ export default function SignUpModal({ open, handleOpen, handleClose }) {
           phoneNo: phoneNo,
         })
         .then((res) => {
-          alert("Signup Successfully");
+          toast.success(res.data.message, {
+            position: "bottom-left",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         });
     } catch (error) {
-      console.log("error");
+      toast.error(error.response.data.message, {
+        position: "bottom-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
     }
     handleClose();
   };
@@ -255,6 +273,7 @@ export default function SignUpModal({ open, handleOpen, handleClose }) {
           </Box>
         </Fade>
       </Modal>
+      <ToastContainer />
     </div>
   );
 }
